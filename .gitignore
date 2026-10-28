@@ -1,0 +1,43 @@
+# Python bytecode and packaging
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+
+# Local source documents: keep directory placeholders, not source files
+data/documents/*
+!data/documents/*/
+data/documents/*/*
+!data/documents/*/.gitkeep
+
+# Temporary evaluation artifacts
+src/rag_assistant/evaluation/*.bak
+src/rag_assistant/evaluation/output.txt
+src/rag_assistant/evaluation/*.zip
+
+# Generated vector database / index
+data/chroma/
+
+# Logs and local outputs
+*.log
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
