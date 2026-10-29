@@ -41,3 +41,6 @@ data/chroma/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Other
+misc
